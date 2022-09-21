@@ -25,9 +25,9 @@ function SideBar() {
 
 {/* <!-- Nav Item - Dashboard --> */}
 <li className="nav-item active">
-    <a className="nav-link" href="/dashboard">
+    <Link className="nav-link" to="/dashboard">
         <i className="fas fa-fw fa-tachometer-alt"></i>
-        <span>Dashboard</span></a>
+        <span>Dashboard</span></Link>
 </li>
 
 {/* <!-- Divider --> */}
