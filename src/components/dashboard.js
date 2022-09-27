@@ -5,6 +5,7 @@ import { Line } from "react-chartjs-2";
 import { Doughnut } from "react-chartjs-2";
 import SideBar from "./sidebar";
 import TopBar from "./topbar";
+import undraw from './img/undraw_posting_photo.svg'
 
 function number_format(number, decimals, dec_point, thousands_sep) {
   // *     example: number_format(1234.56, 2, ',', ' ');
@@ -570,7 +571,7 @@ function Dashboard() {
                     <img
                       className="img-fluid px-3 px-sm-4 mt-3 mb-4"
                       style={{ width: "25rem" }}
-                      src={"img/undraw_posting_photo.svg"}
+                      src={undraw}
                       alt="..."
                     />
                   </div>

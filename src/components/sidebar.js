@@ -2,6 +2,8 @@ import React from "react";
 import "../css/sb-admin-2.min.css";
 import "../vendor/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
+import rocket from './img/undraw_rocket.svg'
+
 function SideBar() {
 
 
@@ -126,7 +128,7 @@ function SideBar() {
 
 {/* <!-- Sidebar Message --> */}
 <div className="sidebar-card d-none d-lg-flex">
-    <img className="sidebar-card-illustration mb-2" src="../img/undraw_rocket.svg" alt="..."/>
+    <img className="sidebar-card-illustration mb-2" src={rocket} alt="..."/>
     <p className="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
     <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
 </div>

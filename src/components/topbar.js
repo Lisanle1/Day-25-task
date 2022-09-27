@@ -1,6 +1,9 @@
 import React from "react";
-
-function TopBar() {
+import profile1 from './img/undraw_profile_1.svg'
+import profile2 from './img/undraw_profile_2.svg'
+import profile3 from './img/undraw_profile_3.svg'
+import profile from './img/undraw_profile.svg'
+function TopBar() { 
   return (
     <>
       {/* <!-- Topbar --> */}
@@ -158,7 +161,7 @@ function TopBar() {
                 <div className="dropdown-list-image mr-3">
                   <img
                     className="rounded-circle"
-                    src="img/undraw_profile_1.svg"
+                    src={profile1}
                     alt="..."
                   />
                   <div className="status-indicator bg-success"></div>
@@ -175,7 +178,7 @@ function TopBar() {
                 <div className="dropdown-list-image mr-3">
                   <img
                     className="rounded-circle"
-                    src="img/undraw_profile_2.svg"
+                    src={profile2}
                     alt="..."
                   />
                   <div className="status-indicator"></div>
@@ -192,7 +195,7 @@ function TopBar() {
                 <div className="dropdown-list-image mr-3">
                   <img
                     className="rounded-circle"
-                    src="img/undraw_profile_3.svg"
+                    src={profile3}
                     alt="..."
                   />
                   <div className="status-indicator bg-warning"></div>
@@ -245,7 +248,8 @@ function TopBar() {
               <span className="mr-2 d-none d-lg-inline text-gray-600 small">
                 Douglas McGee
               </span>
-             
+              <img class="img-profile rounded-circle"
+               src={profile} alt=''/>
             </a>
             {/* <!-- Dropdown - User Information --> */}
             <div

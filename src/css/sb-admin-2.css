@@ -10437,13 +10437,12 @@ a:focus {
   width: 0 !important;
   overflow: hidden;
 }
-
 .sidebar.toggled #sidebarToggle::after {
   content: '\f105';
   font-family: 'Font Awesome 5 Free';
   margin-left: 0.25rem;
 }
-
+ 
 .sidebar.toggled .sidebar-card {
   display: none;
 }
